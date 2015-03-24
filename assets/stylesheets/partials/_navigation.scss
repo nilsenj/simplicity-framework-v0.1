@@ -1,0 +1,80 @@
+////bizel navigation
+//header{ background-color: white}
+//.navigation{
+//  width: 100%;
+//  position: relative;
+//  margin-bottom: 0px!important;
+//  display: inline-block;
+//  border-bottom: 2px inset  #90a4ae!important;
+//  .logo {
+//    top: 10px!important;
+//    position: relative;
+//  }
+//  ul {
+//    padding: 0px;
+//    margin: 0px;
+//    li {
+//      padding: 3px;
+//      a {
+//        padding: 5px 10px;
+//        font-size: 22px;
+//        padding: 8px 15px!important;
+//        transition: 350ms all;
+//        border-bottom: 2px  inset  transparent;
+//        &:hover, &.active {
+//          border-bottom: 2px  inset  white!important;
+//          background-color: rgba(0,0,0,0.05)!important;
+//        }
+//      }
+//    }
+//  }
+//}
+//.sub.navigation {
+//  margin-top: 0px!important;
+//  border-bottom: none!important;
+//  margin-bottom: 20px!important;
+//  background-color:white!important;
+//  display: flex;
+//}
+//
+///*
+//@media (min-width: 768px) {
+//  .container {
+//    width: 100%;
+//  }
+//}*/
+//@media (max-width: 992px) {
+//  .navigation {
+//    width: 100%;
+//    padding-left: 0px!important;
+//    padding-right: 0px!important;
+//    .logo {
+//      text-align: center!important;
+//    }
+//    .list-inline.pull-left, .list-inline.pull-right{
+//      display: block!important;
+//      width: 100%;
+//      text-align: center !important;
+//      a {
+//        text-align: center !important;
+//      }
+//    }
+//    .list-inline.pull-left{}
+//  }
+//}
+///*
+//@media (min-width: 1200px) {
+//  .container {
+//    width: 100%;
+//  }
+//}
+//@media (min-width: 1450px) {
+//  .container {
+//    width: 1440px;
+//  }
+//}
+//@media (min-width: 1600px) {
+//  .container {
+//    width: 1550px;
+//  }
+//}*/

@@ -1,0 +1,64 @@
+.block {
+
+// Lime
+&.lime {
+  @import "../../../color-schemas/lime";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+
+// Brown
+&.brown {
+  @import "../../../color-schemas/brown";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+
+// Amber
+&.amber {
+  @import "../../../color-schemas/amber";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+
+// cyan
+&.cyan {
+  @import "../../../color-schemas/cyan";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+// deep-orange
+&.deep-orange {
+  @import "../../../color-schemas/deep-orange";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+// deep-purple
+&.deep-purple {
+  @import "../../../color-schemas/deep-purple";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+
+// light-green
+&.light-green {
+  @import "../../../color-schemas/light-green";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+
+// purple
+&.purple {
+  @import "../../../color-schemas/purple";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+
+// teal
+&.teal {
+  @import "../../../color-schemas/teal";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+// yellow
+&.yellow {
+  @import "../../../color-schemas/yellow";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+// indigo
+&.indigo {
+  @import "../../../color-schemas/indigo";
+  @include block-variant($darkPrimaryColor, $primaryTextColor, $textPrimaryColor, $primaryColor, $lightPrimaryColor, $secondaryTextColor, $accentColor, $dividerColor);
+}
+}

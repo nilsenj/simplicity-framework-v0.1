@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport" />
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport" />
+    <title>simplicity-framework</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <style>
+        .row div {
+            background-color: #0bcefe;
+            border-left:2px inset white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="">
+
+        <div class="page-header">
+            <h1>simplicity grid examples</h1>
+            <h2>generally it is based on bootstap grid but with shortened semantics</h2>
+            <hr/>
+            <p class="lead">Basic grid layouts to get you familiar with building within the simplicity grid system.</p>
+        </div>
+
+        <h3>Three equal  columns</h3>
+        <p>Get three equal-width  columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the  columns will automatically stack.</p>
+        <div class="row">
+            <div class=" m-4">. m-4</div>
+            <div class=" m-4">. m-4</div>
+            <div class=" m-4">. m-4</div>
+        </div>
+
+        <h3>Three unequal  columns</h3>
+        <p>Get three  columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid  columns should add up to twelve for a single horizontal block. More than that, and  columns start stacking no matter the viewport.</p>
+        <div class="row">
+            <div class=" m-3">. m-3</div>
+            <div class=" m-6">. m-6</div>
+            <div class=" m-3">. m-3</div>
+        </div>
+
+        <h3>Two  columns</h3>
+        <p>Get two  columns <strong>starting at desktops and scaling to large desktops</strong>.</p>
+        <div class="row">
+            <div class=" m-8">. m-8</div>
+            <div class=" m-4">. m-4</div>
+        </div>
+
+        <h3>Full width, single  column</h3>
+        <p class="text-warning">No grid classes are necessary for full-width elements.</p>
+
+        <hr>
+
+        <h3>Two  columns with two nested  columns</h3>
+        <p>Per the documentation, nesting is easy—just put a row of  columns within an existing  column. This gives you two  columns <strong>starting at desktops and scaling to large desktops</strong>, with another two (equal widths) within the larger  column.</p>
+        <p>At mobile device sizes, tablets and down, these  columns and their nested  columns will stack.</p>
+        <div class="row">
+            <div class=" m-8">
+                . m-8
+                <div class="row">
+                    <div class=" m-6">. m-6</div>
+                    <div class=" m-6">. m-6</div>
+                </div>
+            </div>
+            <div class=" m-4">. m-4</div>
+        </div>
+
+        <hr>
+
+        <h3>Mixed: mobile and desktop</h3>
+        <p>The simplicity 3 grid system has four tiers of classes: xs (phones), sm (tablets), md (desktops), and lg (larger desktops). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
+        <p>Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
+        <div class="row">
+            <div class=" xs-12  m-8">. xs-12 . m-8</div>
+            <div class=" xs-6  m-4">. xs-6 . m-4</div>
+        </div>
+        <div class="row">
+            <div class=" xs-6  m-4">. xs-6 . m-4</div>
+            <div class=" xs-6  m-4">. xs-6 . m-4</div>
+            <div class=" xs-6  m-4">. xs-6 . m-4</div>
+        </div>
+        <div class="row">
+            <div class=" xs-6">. xs-6</div>
+            <div class=" xs-6">. xs-6</div>
+        </div>
+
+        <hr>
+
+        <h3>Mixed: mobile, tablet, and desktop</h3>
+        <p></p>
+        <div class="row">
+            <div class=" xs-12  s-6   l-8">. xs-12 . s-6 .  l-8</div>
+            <div class=" xs-6   l-4">. xs-6 .  l-4</div>
+        </div>
+        <div class="row">
+            <div class=" xs-6  s-4">. xs-6 . s-4</div>
+            <div class=" xs-6  s-4">. xs-6 . s-4</div>
+            <div class=" xs-6  s-4">. xs-6 . s-4</div>
+        </div>
+
+        <hr>
+
+        <h3> column clearing</h3>
+        <p><a href="#">Clear floats</a> at specific breakpoints to prevent awkward wrapping with uneven content.</p>
+        <div class="row">
+            <div class=" xs-6  s-3">
+                . xs-6 . s-3
+                <br>
+                Resize your viewport or check it out on your phone for an example.
+            </div>
+            <div class=" xs-6  s-3">. xs-6 . s-3</div>
+
+            <!-- Add the extra clearfix for only the required viewport -->
+            <div class="clearfix visiblexs"></div>
+
+            <div class=" xs-6  s-3">. xs-6 . s-3</div>
+            <div class=" xs-6  s-3">. xs-6 . s-3</div>
+        </div>
+
+        <hr>
+
+        <h3>Offset, push, and pull resets</h3>
+        <p>Reset offsets, pushes, and pulls at specific breakpoints.</p>
+        <div class="row">
+            <div class=" s-5  m-6">. s-5 . m-6</div>
+            <div class=" s-5  s-offset-2  m-6  m-offset-0">. s-5 . s-offset-2 . m-6 . m-offset-0</div>
+        </div>
+        <div class="row">
+            <div class=" s-6  m-5   l-6">. s-6 . m-5 .  l-6</div>
+            <div class=" s-6  m-5  m-offset-2   l-6   l-offset-0">. s-6 . m-5 . m-offset-2 .  l-6 .  l-offset-0</div>
+        </div>
+
+</div>
+    </div>
+    <script src="javascripts/jquery/jquery.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+// Lime
+.button-lime {
+  @import "color-schemas/lime";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
+
+// Brown
+.button-brown {
+  @import "color-schemas/brown";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
+
+// Amber
+.button-amber {
+  @import "color-schemas/amber";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
+
+
+// cyan
+.button-cyan {
+  @import "color-schemas/cyan";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
+// deep-orange
+.button-deep-orange {
+  @import "color-schemas/deep-orange";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
+// deep-purple
+.button-deep-purple {
+  @import "color-schemas/deep-purple";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
+// light-green
+.button-light-green {
+  @import "color-schemas/light-green";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}// light-blue
+.button-light-blue {
+  @import "color-schemas/light-blue";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
+// purple
+.button-purple {
+  @import "color-schemas/purple";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
+
+// teal
+.button-teal {
+  @import "color-schemas/teal";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
+// yellow
+.button-yellow {
+  @import "color-schemas/yellow";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
+// indigo
+.button-indigo {
+  @import "color-schemas/indigo";
+  @include button-variant($textPrimaryColor, lighten($primaryColor, 5%), $accentColor);
+}
